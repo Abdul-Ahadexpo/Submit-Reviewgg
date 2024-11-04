@@ -1,0 +1,158 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.claim-btn {
+  color: black;
+  background: rgb(231, 254, 41);
+  height: 48px;
+  width: 160px;
+  border-radius: 16px;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 1.8em #00ff40);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 1.8em #00ffb3);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Class for players */
+
+.jut-buy-txt {
+  background-color: #926666;
+  height: 36px;
+  width: fit-content;
+}
+/* General styles for the player card */
+.player-card {
+  width: 424px; /* Updated width */
+  height: 512px; /* Updated height */
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Hide the ID span from view */
+.hidden {
+  display: none;
+}
+
+/* Player image styling */
+.player-card img {
+  width: 376px;
+  height: 240px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  border: 2px solid #ddd;
+}
+
+/* Player name styling */
+.player-card h3 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Player details styling */
+.player-card p {
+  color: #666;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+/* Buy button styling */
+.buy-btn-txt {
+  margin-top: 15px;
+}
+
+.jut-buy {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 16px;
+  border: 1px solid gray;
+  color: rgb(2, 2, 2);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.done {
+  padding: 10.1px 16.2px;
+  border: none;
+  border-radius: 16px;
+  background-color: #d4d4d4;
+  color: rgb(24, 24, 24);
+  font-weight: bold;
+  cursor: not-allowed;
+}
+.jut-buy:hover {
+  background-color: #a1a1a133;
+}
+
+.jut-buy:active {
+  transform: scale(0.98);
+}
+
+/* Alternate styling when the player is added to the team */
+.jut-buy.player-added {
+  background-color: #f39c12;
+  cursor: default;
+}
+
+.jut-buy.player-added:hover {
+  background-color: #e67e22;
+}
+/* ---------------------------------------------Plural Players */
+
+.players-container {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.avp {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: left;
+}

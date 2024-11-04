@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "img": "https://th.bing.com/th/id/OIP.REUqgpeX8LYXp5hE8DLYsAHaEo?rs=1&pid=ImgDetMain",
+    "player": "Aarav Patel",
+    "country": "India",
+    "price": 300000,
+    "coin": 450000,
+    "skill": "Batting",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm off-spin"
+  },
+
+  {
+    "id": 2,
+    "img": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/01/04/13/virat-kohli.jpg",
+    "player": "Virat Kohli",
+    "country": "India",
+    "price": 500000,
+    "coin": 450000,
+    "skill": "Batting",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  {
+    "id": 3,
+    "img": "https://th.bing.com/th/id/OIP.HX9WX1t1Oh72DzGDOpfp7gHaE4?rs=1&pid=ImgDetMain",
+    "player": "Babar Azam",
+    "country": "Pakistan",
+    "price": 450000,
+    "coin": 450000,
+    "skill": "Batting",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  {
+    "id": 4,
+    "img": "https://th.bing.com/th/id/R.7d2e86edd7987aa553338387b770c27e?rik=az0vp%2boTHR7%2fbQ&pid=ImgRaw&r=0",
+    "player": "Kane Williamson",
+    "country": "New Zealand",
+    "price": 400000,
+    "coin": 450000,
+    "skill": "Batting",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  {
+    "id": 6,
+    "img": "https://th.bing.com/th/id/OIP.QHIGX4O8yjv7cNQXK1DA3gHaEK?rs=1&pid=ImgDetMain",
+    "player": "David Warner",
+    "country": "Australia",
+    "price": 350000,
+    "coin": 450000,
+    "skill": "Batting",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  {
+    "id": 7,
+    "img": "https://images.thequint.com/thequint/2019-07/fb5019f5-8ae2-46c4-80b0-8cb6cd10bc3c/AP19187368058802.jpg?rect=0%2C0%2C2613%2C1470&auto=format%2Ccompress&fmt=webp",
+    "player": "Jasprit Bumrah",
+    "country": "India",
+    "price": 450000,
+    "coin": 450000,
+    "skill": "Bowling",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  {
+    "id": 8,
+    "img": "https://th.bing.com/th/id/R.233adc070cfd9c1fe66ed6e8d74d5e4f?rik=HCANixp5zYz1kA&pid=ImgRaw&r=0",
+    "player": "Ben Stokes",
+    "country": "England",
+    "price": 700000,
+    "coin": 450000,
+    "skill": "All-rounder",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+
+  {
+    "id": 5,
+    "img": "https://th.bing.com/th/id/OIP.LzCYUH8pJCsvNjl3hy5jVwHaFj?rs=1&pid=ImgDetMain",
+    "player": "Rashid Khan",
+    "country": "Afghanistan",
+    "price": 200000,
+    "coin": 450000,
+    "skill": "Spin Bowling",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Leg-spin"
+  },
+  {
+    "id": 6,
+    "img": "https://th.bing.com/th/id/OIP.6IXlW599RjvjX_CO8Km2ygHaFe?rs=1&pid=ImgDetMain",
+    "player": "Johnny English",
+    "country": "England",
+    "price": "BDT 200,500,000",
+    "skill": "All-rounder",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  {
+    "id": 2,
+    "img": "https://th.bing.com/th/id/OIP.ZhfqLuZmSeVTOmnfXxqfIgHaEK?rs=1&pid=ImgDetMain",
+    "player": "Goku",
+    "country": "Japan",
+    "price": "BDT 900,000,000",
+    "skill": "All-rounder",
+    "batting_style": "Two hand blow",
+    "bowling_style": "Kamehameha"
+  },
+  {
+    "id": 3,
+    "img": "https://th.bing.com/th/id/OIP.U_BKocwl3kGtAzMnVAxasQHaEL?w=850&h=480&rs=1&pid=ImgDetMain",
+    "player": "Naruto Uzumaki",
+    "country": "Japan",
+    "price": "BDT 850,000,000",
+    "skill": "All-rounder",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Rasengan"
+  },
+  {
+    "id": 4,
+    "img": "https://th.bing.com/th/id/OIP.g5fjxVbIQAVDRve-Ehl8IgHaEK?rs=1&pid=ImgDetMain",
+    "player": "Luffy",
+    "country": "Japan",
+    "price": "BDT 780,000,000",
+    "skill": "All-rounder",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "None"
+  }
+]

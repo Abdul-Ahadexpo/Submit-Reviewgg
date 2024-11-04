@@ -1,0 +1,28 @@
+.coin {
+  align-content: center;
+  width: auto;
+  cursor: pointer;
+  padding: 0px 10px;
+  border: 1px solid gray;
+  font-weight: 500;
+  background-color: #c5c5c55b;
+  border-radius: 16px;
+}
+.Coin {
+  color: #daba08;
+  text-decoration: underline;
+}
+.coin:hover {
+  animation: l 2s;
+}
+@keyframes l {
+  0% {
+    scale: 99%;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  100% {
+    scale: 111%;
+    border: 2px solid rgb(0, 255, 85);
+    background-color: #d8d8d885;
+  }
+}
